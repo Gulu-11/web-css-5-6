@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+}
+.navDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    width: 100%;
+    height: 44px;
+}
+.logo-menu-div {
+    display: flex;
+    max-width: 642px;
+    width: 100%;
+    align-items: center;
+    gap: 32px;
+}
+.logoDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.logoDiv p {
+    font-weight: 900;
+    line-height: 24px;
+    color: #000000;
+}
+.siteLogo {
+    width: 40px;
+    height: 44px;
+}
+
+.menuDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 469px;
+    width: 100%;
+}
+.menuAnchor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+a {
+    text-decoration: none;
+}
+.menuAnchor a {
+    font-weight: 500;
+    line-height: 24px;
+    color: #535862;
+}
+.arrow-down {
+    width: 20px;
+    height: 20px;
+}
+
+.buttonsDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 168px;
+}
+.logInButton {
+    padding: 10px 14px;
+    border: 1px solid #D5D7DA;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.logInButton a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #414651;
+}
+.signUpButton {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: #7F56D9;
+}
+.signUpButton a {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    align-items: center;
+    margin-top: 96px;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1024px;
+    width: 100%;
+}
+.analyticsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 132px;
+    justify-content: space-between;
+}
+.badgesDiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 12px;
+    border: 1px solid #D5D7DA;
+    border-radius: 10px;
+    width: fit-content;
+}
+.featureButton {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid #D5D7DA;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+.featureButton a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #414651;
+}
+.checktextDiv {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.checktextDiv p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #414651;
+}
+.arrow-right {
+    width: 16px;
+    height: 16px;
+}
+.analytics-P {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    color: #181D27;
+}
+.Powerful-P {
+    font-size: 20px;
+    line-height: 30px;
+    color: #535862;
+    text-align: center;
+    max-width: 768px;
+    width: 100%;
+}
+.demo-signup-buttons-div {
+    display: flex;
+    gap: 12px;
+}
+.demoButton {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: 1px solid #D5D7DA;
+    border-radius: 10px;
+    padding: 16px 24px;
+}
+.play-circle {
+    width: 24px;
+    height: 24px;
+}
+.demoButton a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #414651;
+}
+.signUpButton-2 {
+    align-items: center;
+    border: none;
+    background-color: #7F56D9;
+    border-radius: 10px;
+    padding: 16px 24px;
+}
+.signUpButton-2 a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.mobile-photo {
+    max-width: 1024px;
+    width: 100%;
+    height: 561px;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 1024px;
+    width: 100%;
+}
+.featuresDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.featuresDiv :first-child {
+    font-weight: 600;
+    color: #6941C6;
+}
+.featuresDiv :nth-child(2) {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #181D27;
+}
+.featuresDiv :last-child {
+    font-size: 20px;
+    line-height: 30px;
+    color: #535862;
+    text-align: center;
+}
+.featuresContentDiv {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.featureContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 24px;
+    max-width: 320px;
+    width: 100%;
+}
+.contentLogoDiv {
+    padding: 12px;
+    border: 1px solid #E9EAEB;
+    border-radius: 10px;
+}
+.contentlogo {
+    width: 24px;
+    height: 24px;
+}
+.contentTextDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 272px;
+    height: 86px;
+}
+.contentTextDiv :first-child {
+    font-weight: 600;
+    color: #181D27;
+    text-align: center;
+}
+.contentTextDiv :last-child {
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #535862;
+}
+.vector-vertical {
+    height: 114px;
+}
+
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 1024px;
+    width: 100%;
+}
+.upgradeDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.upgradeDiv :first-child {
+    font-weight: 600;
+    color: #7F56D9;
+}
+.upgradeDiv :nth-child(2) {
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+    color: #181D27;
+}
+.upgradeDiv :last-child {
+    font-size: 18px;
+    line-height: 28px;
+    color: #535862;
+}
+
+.cardsMainDiv {
+    display: flex;
+    gap: 32px;
+}
+.CardDiv {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E9EAEB;
+    border-radius: 16px;
+    max-width: 496px;
+    width: 100%;
+}
+.mainPriceDiv {
+    padding: 32px 32px 0 32px;
+}
+.priceDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    
+}
+.planDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 96px;
+}
+.card-logo-div {
+    display: flex;
+    padding: 12px;
+    background-color: #F4EBFF;
+    border-radius: 100%;
+}
+.cardLogo {
+    width: 24px;
+    height: 24px;
+}
+.planDiv p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #6941C6;
+}
+.price-P {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #181D27;
+}
+.priceContentP {
+    color: #535862;
+}
+
+.cardContentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.checkIconDiv {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.check-icon {
+    width: 24px;
+    height: 24px;
+}
+.checkIconDiv p {
+    color: #535862;
+}
+.get-started-div {
+    padding: 32px;
+    background-color: #FAFAFA;
+    border-top: 1px solid #E9EAEB;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.mainPriceDiv-2 {
+    padding: 32px 32px 40px 32px;
+}
+.get-started-button {
+    display: flex;
+    max-width: 432px;
+    width: 100%;
+    padding: 12px 18px;
+    justify-content: center;
+    background-color: #7F56D9;
+    border: none;
+    border-radius: 8px;
+}
+.get-started-button a {
+    font-weight: 600;
+    color: white;
+}
+
+
+.section-5 {
+    display: flex;
+    max-width: 1024px;
+    width: 100%;
+    border-radius: 24px;
+    background-color: #53389E;
+}
+.mainImgContentDiv {
+    padding: 64px;
+    max-width: 544px;
+    width: 100%;
+}
+.imgContentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.stars-love-div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.starsDiv {
+    display: flex;
+    width: 116px;
+    justify-content: space-between;
+}
+.staricon {
+    width: 20px;
+    height: 20px;
+}
+.love-p {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    color: white;
+}
+
+.reneeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 56px;
+}
+.reneeDiv :first-child {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    line-height: 28px;
+}
+.reneeDiv :last-child {
+    color: #E9D7FE;
+    line-height: 24px;
+}
+
+.ballsDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 62px;
+}
+.whiteball {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+.purpleball {
+    width: 10px;
+    height: 10px;
+    background-color: #9E77ED;
+    border-radius: 100%;
+}
+.girlImage {
+    max-width: 480px;
+    width: 100%;
+    height: 566px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+
+.footerDiv {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+}
+
+.footer-nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+    height: 44px;
+}
+.footer-menu-div {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.footer-menu-div a {
+    font-weight: 500;
+    color: #535862;
+}
+.copyText {
+    color: #717680;
+    width: 160px;
+    text-align: right;
+}
